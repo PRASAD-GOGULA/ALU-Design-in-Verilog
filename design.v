@@ -1,15 +1,5 @@
-//============================================================
 // Project: 8-bit aLU (RTL Design in Verilog)
-// author: ChatGPT
-// Description:
-//   This project implements an 8-bit arithmetic Logic Unit (aLU)
-//   supporting arithmetic, logical, shift, and comparison ops.
-//   Includes RTL module, testbench, and documentation comments.
-//============================================================
 
-//============================================================
-// 1. aLU MODULE
-//============================================================
 module alu_8_bit(
     input [7:0]a,
     input [7:0]b,
@@ -95,4 +85,5 @@ module alu_8_bit(
         z = (alu_out == 8'b0);
     end
 endmodule
+
 
